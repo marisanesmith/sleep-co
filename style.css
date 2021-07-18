@@ -14,10 +14,20 @@
 body {border: none;}
 html {border: none;}
 
-/* code to use */
+/* Image Styles */
 
 .bg-image {
     background-image: url('/sleep-co/images/the-sleep-co-1.jpg');
     background-size: cover;
     min-height: 10rem;
+}
+
+/* Universal styles and utility classes */
+
+.padded { padding: 5%; }
+.padded-sm { padding: 1rem; }
+
+.bg-dark { 
+    background-color: #192B37; 
+    color: white;
 }
