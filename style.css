@@ -3,3 +3,21 @@
     padding: 0;
     box-sizing: border-box;
 }
+
+/* temporary styles for structural html */
+
+* {
+    padding: 0.5rem;
+    border: 1px solid rgb(225,225,225);
+}
+
+body {border: none;}
+html {border: none;}
+
+/* code to use */
+
+.bg-image {
+    background-image: url('/sleep-co/images/the-sleep-co-1.jpg');
+    background-size: cover;
+    min-height: 10rem;
+}
