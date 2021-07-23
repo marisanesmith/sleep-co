@@ -41,11 +41,15 @@ html {border: none;}
 .text-center        { text-align: center; }
 .text-right         { text-align: right; }
 
+.tall-50 { min-height: 50vh; }
+.tall-60 { min-height: 60vh; }
+.tall-70 { min-height: 70vh; }
 .tall-80 { min-height: 80vh; }
 .tall-90 { min-height: 90vh; }
 .tall-100 { min-height: 100vh; }
 
 .featured-text { color: #FFBE00; }
+.small-text { font-size: 1.5rem; }
 
 /* Typography styles */
 
@@ -53,11 +57,17 @@ h2 {
     font-size: 2.5rem;
     font-size: 2.5rem;
     margin-bottom: 1rem;
+    line-height: 1.1;
 }
 
 p {
     font-weight: 200;
     line-height: 1.5;
+    margin-bottom: 1rem;
+}
+
+p:last-child {
+    margin-bottom: 0;
 }
 
 .font-weight-light { font-weight: 200; }
@@ -76,4 +86,29 @@ header h3 {
     font-size: 5.5rem;
     line-height: 1;
 }
+
+/* Background Images */
+
+.bg-bed { background-image: url('/sleep-co/images/the-sleep-co-3.jpg');}
+.bg-pug { 
+    background-image: url('/sleep-co/images/the-sleep-co-4.jpg');
+    background-position: 50% 35%;
+}
+
+.bg-pillow {
+    background-image: url('/sleep-co/images/the-sleep-co-1.jpg');
+
+}
+
+/* Icon Grid */
+
+.fas {
+    display: block;
+    text-align: center;
+    margin-bottom: 2rem;
+    font-size: 3rem;
+}
+
+
+
 
