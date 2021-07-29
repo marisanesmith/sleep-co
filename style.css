@@ -128,14 +128,14 @@ footer a {
 
 /* Background Images */
 
-.bg-bed { background-image: url('/sleep-co/images/the-sleep-co-3.jpg');}
+.bg-bed { background-image: url('/images/the-sleep-co-3.jpg');}
 .bg-pug { 
-    background-image: url('/sleep-co/images/the-sleep-co-4.jpg');
+    background-image: url('/images/the-sleep-co-4.jpg');
     background-position: 50% 35%;
 }
 
 .bg-pillow {
-    background-image: url('/sleep-co/images/the-sleep-co-1.jpg');
+    background-image: url('/images/the-sleep-co-1.jpg');
     background-position: 50% 59%;
 }
 
