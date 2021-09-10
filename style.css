@@ -4,6 +4,117 @@
     box-sizing: border-box;
 }
 
+<<<<<<< HEAD
 h1 {
     color: teal;
 }
+=======
+/* temporary styles for structural html */
+
+/* * {
+    padding: 0.5rem;
+    border: 1px solid rgb(225,225,225);
+} */
+
+body {
+    border: none;
+    font-family: 'Catamaran', sans-serif;
+    color: #192B37;
+}
+
+html {border: none;}
+
+/* Image Styles */
+
+.bg-image {
+    background-image: url('/sleep-co/images/the-sleep-co-1.jpg');
+    background-size: cover;
+    min-height: 10rem;
+}
+
+/* Universal styles and utility classes */
+
+.padded { padding: 5%; }
+.padded-sm { padding: 1rem; }
+
+.bg-dark { 
+    background-color: #192B37; 
+    color: white;
+}
+
+.text-left          { text-align: left; }
+.text-center        { text-align: center; }
+.text-right         { text-align: right; }
+
+.tall-50 { min-height: 50vh; }
+.tall-60 { min-height: 60vh; }
+.tall-70 { min-height: 70vh; }
+.tall-80 { min-height: 80vh; }
+.tall-90 { min-height: 90vh; }
+.tall-100 { min-height: 100vh; }
+
+.featured-text { color: #FFBE00; }
+.small-text { font-size: 1.5rem; }
+
+/* Typography styles */
+
+h2 {
+    font-size: 2.5rem;
+    font-size: 2.5rem;
+    margin-bottom: 1rem;
+    line-height: 1.1;
+}
+
+p {
+    font-weight: 200;
+    line-height: 1.5;
+    margin-bottom: 1rem;
+}
+
+p:last-child {
+    margin-bottom: 0;
+}
+
+.font-weight-light { font-weight: 200; }
+.font-weight-normal { font-weight: normal; }
+.font-weight-extra-bold { font-weight: 800; }
+
+/* Header styles */
+
+header {
+    background-image: url('/sleep-co/images/the-sleep-co-2.jpg');
+    background-size: cover;
+    background-position: center;
+}
+
+header h3 {
+    font-size: 5.5rem;
+    line-height: 1;
+}
+
+/* Background Images */
+
+.bg-bed { background-image: url('/sleep-co/images/the-sleep-co-3.jpg');}
+.bg-pug { 
+    background-image: url('/sleep-co/images/the-sleep-co-4.jpg');
+    background-position: 50% 35%;
+}
+
+.bg-pillow {
+    background-image: url('/sleep-co/images/the-sleep-co-1.jpg');
+
+}
+
+/* Icon Grid */
+
+.fas {
+    display: block;
+    text-align: center;
+    margin-bottom: 2rem;
+    font-size: 3rem;
+}
+
+
+
+
+>>>>>>> b5a384d7f07e5a16ab8ab95d026dbb60765ea679
