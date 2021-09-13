@@ -1,85 +1,124 @@
 <!DOCTYPE html>
 <html lang="en">
-
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>The Sleep Co</title>
     <!--Grid stylesheet-->
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/gridlex/2.7.1/gridlex.min.css">
+    <link
+        rel="stylesheet"
+        href="https://cdnjs.cloudflare.com/ajax/libs/gridlex/2.7.1/gridlex.min.css"
+    />
     <!-- Google Fonts stylesheet Catamaran (200,400,500,800)-->
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Catamaran:wght@200;400;500;800&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+        href="https://fonts.googleapis.com/css2?family=Catamaran:wght@200;400;500;800&display=swap"
+        rel="stylesheet"
+    />
     <!--Font Awesome stylesheet-->
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css"
+    <link
+        rel="stylesheet"
+        href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css"
         integrity="sha512-iBBXm8fW90+nuLcSKlbmrPcLa0OT92xO1BIsZ+ywDWZCvqsWgccV3gFoRBv0z+8dLJgyAHIhR35VZc2oM/gI1w=="
-        crossorigin="anonymous" referrerpolicy="no-referrer" />
+        crossorigin="anonymous"
+        referrerpolicy="no-referrer"
+    />
     <!--Add in the CSS stylesheet-->
-    <link rel="stylesheet" type="text/css" href="./style.css">
+    <link rel="stylesheet" type="text/css" href="./style.css" />
+    </head>
 
-</head>
-
-<body>
-
+    <body>
     <!------------ Header -------------->
-    <header class="padded grid text-center tall-60">
-        <div class="header-nav col-12 grid">
-            <div class="col-4 text-left">
+    <header class="grid text-center tall-60">
+        <div class="header-nav col-12-top grid">
+            <div class="col-4-middle text-left">
                 <a href="index.html" class="logo">
                     <h2>The Sleep Co</h2>
                 </a>
             </div>
-            <nav class="col-8 text-right">
+            <nav class="col-8-middle text-right">
                 <a href="index.html">Home</a>
                 <a href="./about.html">About</a>
                 <a href="./product.html">Products</a>
                 <a href="./contact.html">Contact</a>
             </nav>
         </div>
-        <div class="col-12-middle">
-            <h3 class="font-weight-extra-bold editable">we're the <span class="featured-text">best</span></h3>
-            <h1 class="font-weight-light editable">the perfect mattress for your family</h1>
+        <div class="col-12">
+            <h3 class="font-weight-extra-bold editable">
+                we're the <span class="featured-text">best</span>
+            </h3>
+            <h1 class="font-weight-light editable">
+                the perfect mattress for your family
+            </h1>
         </div>
     </header>
 
     <!--------- VIDEO SECTION --------->
-    <section class="grid">
-        <div class="bg-image bg-bed col-7 tall-50">
-            <!--ADD VIDEO HERE-->
+    <section class="grid-center bg-light">
+        <div class="col-7 padded">
+        <div style="padding: 56.25% 0 0 0; position: relative">
+            <iframe
+                src="https://player.vimeo.com/video/566499500?badge=0&amp;autopause=0&amp;player_id=0&amp;app_id=58479"
+                frameborder="0"
+                allow="autoplay; fullscreen; picture-in-picture"
+                allowfullscreen
+                style="
+                position: absolute;
+                top: 0;
+                left: 0;
+                width: 100%;
+                height: 100%;
+                "
+                title="nala - horizontal"
+            ></iframe>
+        </div>
+        <script src="https://player.vimeo.com/api/player.js"></script>
+        <!--ADD VIDEO HERE-->
         </div>
         <div class="padded col-5-middle">
-            <h2 class="editable">a catchy <span class="featured-text">heading</span></h2>
-            <p class="editable">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Expedita non doloribus a consequatur doloremque
-                tempore obcaecati soluta repudiandae ipsam optio! Assumenda adipisci odit doloribus animi delectus cum
-                explicabo. At, molestias!</p>
-        </div> 
+            <h2 class="editable">
+                a catchy <span class="featured-text">heading</span>
+            </h2>
+            <p class="editable">
+            Lorem ipsum dolor, sit amet consectetur adipisicing elit. Expedita non
+            doloribus a consequatur doloremque tempore obcaecati soluta
+            repudiandae ipsam optio! Assumenda adipisci odit doloribus animi
+            delectus cum explicabo. At, molestias!
+            </p>
+        </div>
     </section>
 
     <!---------Gallery section--------->
     <section class="grid padded">
         <div class="bg-image bg-pug col-6 tall-50">
-            <!--background image pug-->
+        <!--background image pug-->
         </div>
         <div class="padded col-6-middle">
             <h2>so <span class="featured-text">soft</span> you'll melt</h2>
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Velit dicta, expedita omnis quae voluptas
-                cupiditate ullam suscipit iste voluptatibus esse ratione debitis repellendus aspernatur, ex dolor
-                dolorem perspiciatis tenetur. Et?</p>
+            <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Velit dicta,
+            expedita omnis quae voluptas cupiditate ullam suscipit iste
+            voluptatibus esse ratione debitis repellendus aspernatur, ex dolor
+            dolorem perspiciatis tenetur. Et?
+            </p>
         </div>
     </section>
     <section class="grid padded">
         <div class="padded col-6-middle">
             <h2>so <span class="featured-text">soft</span> you'll melt</h2>
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Velit dicta, expedita omnis quae voluptas
-                cupiditate ullam suscipit iste voluptatibus esse ratione debitis repellendus aspernatur, ex dolor
-                dolorem perspiciatis tenetur. Et?</p>
+            <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Velit dicta,
+            expedita omnis quae voluptas cupiditate ullam suscipit iste
+            voluptatibus esse ratione debitis repellendus aspernatur, ex dolor
+            dolorem perspiciatis tenetur. Et?
+            </p>
         </div>
         <div class="bg-image bg-pug col-6 tall-50">
-            <!--background image pug-->
+        <!--background image pug-->
         </div>
     </section>
-    
+
     <!---------features section with icons--------->
     <section class="padded grid bg-yellow">
         <div class="padded-sm col-12 text-center">
@@ -87,35 +126,55 @@
         </div>
         <div class="padded-sm col-3">
             <i class="fas fa-cloud"></i>
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatem, unde. Perspiciatis pariatur, impedit
-                sapiente est amet, distinctio quod fuga exercitationem non officia rerum, ut vitae a corrupti quas ex
-                praesentium!</p>
+            <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatem,
+            unde. Perspiciatis pariatur, impedit sapiente est amet, distinctio
+            quod fuga exercitationem non officia rerum, ut vitae a corrupti quas
+            ex praesentium!
+            </p>
         </div>
         <div class="padded-sm col-3">
             <i class="fas fa-cloud"></i>
-            <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Quisquam animi officiis exercitationem
-                temporibus quidem saepe ducimus, neque error? Exercitationem amet eum impedit quam quod facere rem
-                doloribus recusandae quia veniam.</p>
+            <p>
+            Lorem, ipsum dolor sit amet consectetur adipisicing elit. Quisquam
+            animi officiis exercitationem temporibus quidem saepe ducimus, neque
+            error? Exercitationem amet eum impedit quam quod facere rem doloribus
+            recusandae quia veniam.
+            </p>
         </div>
         <div class="padded-sm col-3">
             <i class="fas fa-cloud"></i>
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ab excepturi voluptates fuga molestias
-                accusantium, unde ipsa, nobis quidem sint nihil nisi perferendis laudantium numquam tenetur. Porro
-                asperiores vero expedita quae?</p>
+            <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Ab excepturi
+            voluptates fuga molestias accusantium, unde ipsa, nobis quidem sint
+            nihil nisi perferendis laudantium numquam tenetur. Porro asperiores
+            vero expedita quae?
+            </p>
         </div>
         <div class="padded-sm col-3">
             <i class="fas fa-cloud"></i>
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Exercitationem officia corrupti, ut soluta culpa
-                provident dolorem, omnis cum ratione quibusdam reprehenderit iusto autem voluptates nostrum veritatis,
-                repudiandae sed ipsa consequatur?</p>
+            <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit.
+            Exercitationem officia corrupti, ut soluta culpa provident dolorem,
+            omnis cum ratione quibusdam reprehenderit iusto autem voluptates
+            nostrum veritatis, repudiandae sed ipsa consequatur?
+            </p>
         </div>
     </section>
 
     <!----------- FOOTER ------------>
     <footer class="padded grid-spaceBetween bg-dark">
         <div class="col-4-bottom">
-            <h2>let's <br> <span class="featured-text">connect</span></h2>
-            <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Quis in amet minima illum culpa. Voluptates sit doloribus id deserunt, laboriosam non asperiores ipsa. Provident dolore autem possimus incidunt repellendus quia!</p>
+            <h2>
+            let's <br />
+            <span class="featured-text">connect</span>
+            </h2>
+            <p>
+            Lorem ipsum dolor sit, amet consectetur adipisicing elit. Quis in amet
+            minima illum culpa. Voluptates sit doloribus id deserunt, laboriosam
+            non asperiores ipsa. Provident dolore autem possimus incidunt
+            repellendus quia!
+            </p>
         </div>
         <div class="col-5-bottom">
             <p><strong>Call:</strong> <a href="tel:#">555-555-5555</a></p>
@@ -124,8 +183,5 @@
             <p><strong>Instagram:</strong> <a href="https://#">@thesleepco</a></p>
         </div>
     </footer>
-
 </body>
-
 </html>
-
