@@ -27,6 +27,10 @@ html {border: none;}
     min-height: 10rem;
 }
 
+.landscape { padding-bottom: 65%; }
+.portrait { padding-bottom: 125%; }
+.square { padding-bottom: 100%; }
+
 /* Universal styles and utility classes */
 
 .padded { padding: 5%; }
@@ -37,6 +41,10 @@ html {border: none;}
     background-color: #192B37; 
     color: white;
 }
+
+.bg-yellow { background-color: #FFBE00; }
+
+.bg-light { background-color: #E3ECF2; }
 
 .text-left          { text-align: left; }
 .text-center        { text-align: center; }
@@ -50,6 +58,7 @@ html {border: none;}
 .tall-100 { min-height: 100vh; }
 
 .featured-text { color: #FFBE00; }
+.dark-text { color: #192B37; }
 .white-text { color: white; }
 
 .small-text { font-size: 1.5rem; }
@@ -73,6 +82,11 @@ html {border: none;}
 
 
 /* Typography styles */
+
+h2, h3, h4, h5, h6 {
+    margin-bottom: 1rem;
+    line-height: 1.1;
+}
 
 h2 {
     font-size: 2.5rem;
